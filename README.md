@@ -5,8 +5,10 @@ A Canadian textbook hub, [mynelson.com](https://mynelson.com) only allows you to
 
 ## What does this script do?
 
-Enter in your account credentials, or cookies for your account, and you'll be able to view the textbooks attached to your account and instantaneously download all the contents from them into a neat folder.
+Enter in your account credentials, or cookies for your account, and you'll be able to view the textbooks attached to your account and instantaneously download all the contents from them into a neat folder. 
 
-## How to use??
+You could then store content in other places, and distribute them if you want. (I AM NOT LEGALLY LIABLE IF YOU DO)
+
+## How to use?
 
 Run ```nelsonfrick.js```, and enjoy your locally stored textbooks!
