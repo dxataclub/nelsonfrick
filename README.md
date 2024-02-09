@@ -13,4 +13,8 @@ You could then store content in other places, and distribute them if you want. (
 
 ## How to use?
 
-Run ```nelsonfrick.js```, and enjoy your locally stored textbooks!
+Ensure you have a version of [Node.js](https://nodejs.org/en) equal to or greater than 20 for your platform.
+
+Download `nelsonfrick.mjs` and run it with node. Follow prompted instructions to download your books.
+
+This script may stop working due to Nelson updates. Please create an issue if there are any problems.
