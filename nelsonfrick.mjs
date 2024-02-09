@@ -123,7 +123,6 @@ async function authorize() {
 
 function getContents(resources) {
     const targets = []
-    const highlighted = []
 
     for (let r in resources) {
         const resr = resources[r];
@@ -132,12 +131,9 @@ function getContents(resources) {
             continue;
         
         targets.push(resr);
-
-        if (resr.title === "Contents PDF" || resr.title === "Index Student Book PDF"  || resr.title === "Student Book Credits Student Book PDF" || resr.title.includes("Student Book PDF") || resr.title.startsWith("Appendix") || resr.title.startsWith("Glossary"))
-            highlighted.push(resr.title)
     }
 
-    return [targets, highlighted];
+    return [targets];
 }
 
 async function downloadProd(targetId) {
@@ -159,7 +155,7 @@ async function downloadProd(targetId) {
     const downloads = products[targetId].title
     const server = `https://www.mynelson.com/resources/${diskLocation}/${isbn13}/student/`
 
-    const [targets, highlighted] = getContents(resources);
+    const [targets] = getContents(resources);
     const progressbr = progress(targets.length, products[targetId].title)
 
     if (!fs.existsSync(downloads))
