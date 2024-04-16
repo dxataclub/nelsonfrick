@@ -1,5 +1,5 @@
 /*
-https://github.com/argontheory/nelsonfrick
+https://github.com/dxataclub/nelsonfrick
 */
 
 import readline from 'node:readline';

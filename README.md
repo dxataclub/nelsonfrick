@@ -1,7 +1,7 @@
 ![alt text](image.png)
 
 ## Nelson Book Pirater, The Problem:
-A Canadian textbook hub available at [mynelson.com](https://mynelson.com) only allows you to view pages in your browser. You can download the pdf's one by one but the pages are spread across many directories, making it difficult.
+A Canadian textbook hub available at [mynelson.com](https://mynelson.com) only allows you to view pages in your browser. You can download the pdf's one by one but the pages are spread across many directories. This is difficult for anyone wanting to freely own their books.
 
 ## What does this script do?
 
