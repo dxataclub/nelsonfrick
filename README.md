@@ -9,8 +9,8 @@ Enter in your account credentials, and you'll be able to view the all textbooks 
 
 ## How to use?
 
-Ensure you have a version of [Node.js](https://nodejs.org/en) equal to or greater than 20 for your platform.
+Ensure you have a version of [Node.js](https://nodejs.org/en) equal to or greater than v20.
 
-Download `nelsonfrick.mjs` and run it with node. Follow prompted instructions to download your books.
+Download `nelsonfrick.mjs` and run it with node with the following terminal command: `node nelsonfrick.mjs` which can be done with an app called Powershell on windows. Follow prompted instructions to download your books.
 
 This script may stop working due to Nelson updates. Please create a Github issue if you encounter any problems.
