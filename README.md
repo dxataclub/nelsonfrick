@@ -7,7 +7,7 @@ A Canadian textbook hub available at [mynelson.com](https://mynelson.com) only a
 
 Enter in your account credentials, and you'll be able to view the all textbooks attached to your account and instantaneously download all the contents from them into a neat folder. 
 
-Port your eBooks to your local devices, distribute, etc..
+Port your eBooks to your local devices, read them offline, etc..
 
 ![alt text](image-1.png)
 
